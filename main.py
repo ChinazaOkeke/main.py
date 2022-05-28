@@ -3,7 +3,7 @@ class Student:
     def __init__(self, name, age, tracks, score):
         self.name = str(name)
         self.age = int(age)
-        self.tracks = tracks
+        self.tracks = list(tracks)
         self.score = float(score)
     def change_name(self, new_name):
         self.name = new_name
