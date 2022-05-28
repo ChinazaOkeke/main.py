@@ -12,7 +12,8 @@ class Student:
         self.age = new_age
         print("the student new age is", self.age)
     def add_track(self, new_track):
-        self.tracks = new_track
+        self.tracks.append(new_track)
+
         print("the student added a new track;", self.tracks)
     def get_score(self, new_score):
         self.score = new_score
